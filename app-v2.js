@@ -23,7 +23,7 @@ function init(){
     var html = `
     <header class="nav">
 		<div class="navSize">
-			<a href="/"><img class="avatar" src="https://github.com/Shuimujieming/nexmoe/blob/master/icon.png"/></a>
+			<a href="/"><img class="avatar" src="https://github.com/Shuimujieming/nexmoe/blob/master/icon.png?raw=true"/></a>
 			<a class="login" href="https://www.olxmi.com/" target="_blank">论坛</a>
 		</div>
 	</header>
