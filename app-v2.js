@@ -24,7 +24,7 @@ function init(){
     <header class="nav">
 		<div class="navSize">
 			<a href="/"><img class="avatar" src="https://cdn.jsdelivr.net/gh/Shuimujieming/nexmoe/icon.png"/></a>
-			<a class="login" href="https://impulsemi.xyz/" target="_blank">官网</a>
+			<a class="login" href="https://impulsemi.xyz/" target="_blank">ImpulseMi官网</a>
 		</div>
 	</header>
 <div class="mdui-container">
@@ -375,9 +375,9 @@ function utc2beijing(utc_datetime) {
 
 // bytes自适应转换到KB,MB,GB
 function formatFileSize(bytes) {
-    if (bytes>=1000000000) {bytes=(bytes/1000000000).toFixed(2)+' GB';}
-    else if (bytes>=1000000)    {bytes=(bytes/1000000).toFixed(2)+' MB';}
-    else if (bytes>=1000)       {bytes=(bytes/1000).toFixed(2)+' KB';}
+    if (bytes>=1073741824‬) {bytes=(bytes/1073741824).toFixed(2)+' GB';}
+    else if (bytes>=1048576‬)    {bytes=(bytes/1048576).toFixed(2)+' MB';}
+    else if (bytes>=1024)       {bytes=(bytes/1024).toFixed(2)+' KB';}
     else if (bytes>1)           {bytes=bytes+' bytes';}
     else if (bytes==1)          {bytes=bytes+' byte';}
     else                        {bytes='';}
