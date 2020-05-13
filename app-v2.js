@@ -24,7 +24,7 @@ function init(){
     <header class="nav">
 		<div class="navSize">
 			<a href="/"><img class="avatar" src="https://cdn.jsdelivr.net/gh/Shuimujieming/nexmoe/icon.png"/></a>
-			<a class="login" href="" target="_blank"></a>
+			<a class="login" href="https://service-rnmezeeg-1251685378.gz.apigw.tencentcs.com/release/shuimujieming/" target="_blank">下载请点这里</a>
 		</div>
 	</header>
 <div class="mdui-container">
